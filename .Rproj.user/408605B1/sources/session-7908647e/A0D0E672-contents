@@ -23,8 +23,9 @@ summary(cars)
 
 
 
-```{r pressure, echo=FALSE}
-plot(pressure)
+### Modify RMD by branch 2
+```{r}
+library(ggplot2)
+summary(mpg)
+mpg
 ```
-
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
